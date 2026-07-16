@@ -8,7 +8,7 @@ Multiprocess Image Deduplicator is a high-performance Python utility that uses p
 * Successfully matches duplicate images even if they have been converted between .png, .jpg, and .jpeg
 * Uses a 16-bit perceptual hash size to virtually eliminate false positives on large libraries
 * Groups duplicates on the fly directly inside worker subprocesses to ensure O(N) time efficiency and minimal memory usage
-* Moves all copies of detected duplicate pairs into a dedicated folder, allowing you to double-check for false positives.
+* Moves all detected duplicate pairs into a dedicated folder, allowing you to double-check for false positives.
 
 
 ## 🚀 Getting Started
